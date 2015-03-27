@@ -34,8 +34,8 @@ static NSString *const MRCircularProgressViewProgressAnimationKey = @"MRCircular
 
 + (void)load {
     [self.appearance setAnimationDuration:0.3];
-    [self.appearance setBorderWidth:2.0];
-    [self.appearance setLineWidth:2.0];
+    [self.appearance setBorderWidth:0.0];
+    [self.appearance setLineWidth:5.0];
 }
 
 - (id)initWithFrame:(CGRect)frame {
